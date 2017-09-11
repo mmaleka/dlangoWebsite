@@ -11,6 +11,8 @@ def contact(request):
 def about(request):
     return render(request, 'personal/about.html')
 
+def products(request):
+    return render(request, 'personal/products.html')
 
 
 
